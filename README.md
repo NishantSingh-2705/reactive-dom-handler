@@ -2,7 +2,6 @@
 
 For those times you need to apply persistent DOM changes on top of HTML you don’t control.
 
-View demo: https://growthbook.github.io/dom-mutator/
 
 ```ts
 const mutation = mutate.html('#greeting', (html) => html + ' world');
@@ -45,7 +44,7 @@ Features:
 -   Picks up new matching elements that are added to the DOM
 -   Easily remove a mutation at any time
 
-![Build Status](https://github.com/growthbook/dom-mutator/workflows/CI/badge.svg)
+
 
 ## Installation
 
@@ -221,7 +220,7 @@ resumeGlobalObserver();
 
 ## Developing
 
-Built with [TSDX](https://github.com/formium/tsdx).
+
 
 `npm start` or `yarn start` to rebuild on file change.
 
